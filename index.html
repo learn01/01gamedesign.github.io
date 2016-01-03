@@ -1,0 +1,411 @@
+<!-- For those curiously looking into the source and are front end designers .... Beware .... look no further if you don't want to cry. :) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minecamp</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootflat.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css" media="screen">
+      .calodd {
+        background-color: #4daf4e !important;
+        border-color: #4daf4e !important;
+        color: #222222 !important
+      }
+
+      .caleven {
+        background-color: #e0e0e0 !important;
+        border-color: #e0e0e0 !important;
+        color: #222222 !important
+      }
+
+
+
+      .panel-body {height: 90px;}
+
+      .label-primary, .badge-primary { margin-right: 6px; }
+      .navbar-default {background-color: white; border-color:white;}
+      .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {color: #d855a6;}
+      .navbar-default .navbar-brand, .navbar-default .navbar-link, .navbar-default .btn-link {color: #333333;}
+      .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-link:hover, .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {color:#d855a6;}
+
+      .navbar-default .navbar-toggle {background-color:#3bafda; border-color:white;}
+      .navbar-default .navbar-toggle .icon-bar {background-color:white;}
+      .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color:#d855a6; border-color:#d855a6;}
+
+
+      .navbar-default .navbar-text, .navbar-default .navbar-nav > li > a {color: #333; font-size:1.3em; margin-top:8px;}
+
+      a:link {color:#ffffff;}      /* unvisited link */
+      a:visited {color:#ffffff;}  /* visited link */
+      a:hover {color:#4daf4e;}  /* mouse over link */
+      a:active {color:#4daf4e;}  /* selected link */
+      .lead { margin-bottom:0px; margin-top:0px; font-size: 1.7em; }
+
+      .modal {height: 600px;}
+
+      .footer {margin-top:40px; background-color: #317e3d;}
+
+      .btn-primary { background-color: #2bbfd3;}
+
+      #partners img {display:block; margin-left:auto; margin-right:auto;}
+      ul > li {
+        font-size:1.5em;
+      }
+      .jumbotron{
+        background: url('img/minecraft-bg.jpg') no-repeat center center;
+        min-height: 100%;
+        min-width: 100%;
+        background-size: cover;
+        background-color:rgba(0,0,0,0.5);
+      }
+
+      a#apply:link {color:#000000;}      /* unvisited link */
+      a#apply:visited {color:#000000;}  /* visited link */
+      a#apply:hover {color:#4daf4e;}  /* mouse over link */
+      a#apply:active {color:#4daf4e;}  /* selected link */
+
+      a#apply2:link {color:#000000;}      /* unvisited link */
+      a#apply2:visited {color:#000000;}  /* visited link */
+      a#apply2:hover {color:#4daf4e;}  /* mouse over link */
+      a#apply2:active {color:#4daf4e;}  /* selected link */
+
+      a#wmc {color: #4daf4e;}
+      a#wmc:link {color:#000000;}      /* unvisited link */
+      a#wmc:visited {color:#000000;}  /* visited link */
+      a#wmc:hover {color:#4daf4e;}  /* mouse over link */
+      a#wmc:active {color:#4daf4e;}  /* selected link */
+    </style>
+  </head>
+  <body>
+
+  <div class="jumbotron">
+    <div class="row" style="
+      background-size:cover;
+      padding-top: 20%;
+      padding-bottom: 20%;
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align:center;
+      font-family:raleway;
+      background-color:rgba(0,0,0,0.5);">
+
+      <h3 style="color: #FFFFFF; padding-left:15%; padding-right:15%;">This Winter 2015, an EPIC Camp <br> from the creators of <a href="http://wynwoodmakercamp.com">Wynwood Maker Camp</a> where diamonds will be mined, havock will be caused, and eternal friendships forged on the crafting table of ... </h3>
+      <img src="img/minecamp.png" width="100%" style="max-width:400px; min-width:150px;"/>
+</div>
+
+</div>
+<br><br><br>
+<div class="container">
+<br />
+  <p class="lead">
+   The people who brought you <a id="wmc" href="http://wynwoodmakercamp.com">Wynwood Maker Camp</a> are bringing a special Minecraft camp to Miami.
+   We will be building our own wild worlds and servers for gameplay, designing circuits with redstone, programming command blocks, and tons of more fun this winter break.
+   Campers will work together on exciting projects of their choice, all through workshops and play!
+
+
+ </p></div>
+ <div class="container" id="apply2">
+   <a id ="apply2" href="https://mindjoule.typeform.com/to/KzuFUD"><strong><h3 style="text-align:center;">CLICK HERE TO REGISTER FOR THE CAMP</h3></strong></a>
+ </div>
+
+<div class="container">
+   <center><h2>Curriculum</h2></center><br>
+
+<div class="row" id="curriculum">
+  <div class="col-md-2 col-md-offset-1">
+    <div class="panel panel-primary">
+      <div class="panel-heading calodd">
+        <h3 class="panel-title" style="color: #000000">Monday, Dec 21st</h3>
+      </div>
+      <div class="panel-body">
+        Team Building & Computer Science Concepts
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading caleven">
+        <h3 class="panel-title" style="color: #000000">Tuesday, Dec 22nd</h3>
+      </div>
+      <div class="panel-body">
+        World Designing
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading calodd">
+        <h3 class="panel-title" style="color: #000000">Wednesday, Dec 23rd</h3>
+      </div>
+      <div class="panel-body">
+        Redstone Logic
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading caleven">
+        <h3 class="panel-title" style="color: #000000">Thursday, Dec 24th</h3>
+      </div>
+      <div class="panel-body">
+        Christmas Eve (Half day for all)
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading calodd">
+        <h3 class="panel-title" style="color: #000000">Friday, Dec 25th</h3>
+      </div>
+      <div class="panel-body">
+        Christmas (No Camp)
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-2 col-md-offset-1">
+    <div class="panel panel-primary">
+      <div class="panel-heading caleven">
+        <h3 class="panel-title" style="color: #000000">Monday, Dec 28th</h3>
+      </div>
+      <div class="panel-body">
+        Server Operations
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading calodd">
+      <h3 class="panel-title" style="color: #000000">Tuesday, Dec 29th</h3>
+      </div>
+      <div class="panel-body">
+        Project Work Day
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading caleven">
+        <h3 class="panel-title" style="color: #000000">Wednesday, Dec 30th</h3>
+      </div>
+      <div class="panel-body">
+        Project Work Day
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading calodd">
+        <h3 class="panel-title" style="color: #000000">Thursday, Dec 31st</h3>
+      </div>
+      <div class="panel-body">
+        New Year's Eve (Half day for all)
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading caleven">
+        <h3 class="panel-title" style="color: #000000">Friday, Jan 1st</h3>
+      </div>
+      <div class="panel-body">
+        New Year's Day (No Camp)
+      </div>
+    </div>
+  </div>
+
+</div><br></div>
+
+
+
+<div class="container" id="projects">
+  <center><h2>Topics we will go over during the camp duration</h2></center><br>
+  <div class="row">
+    <div class="col-md-3" >
+      <img class="featurette-image img-circle img-responsive" src="img/mc-server.png">
+      <div class="caption text-center"><h4>Server Operation</h4></div>
+      <p style="text-align:justify">
+        Learn how to setup your own private server that allows you to invite your friends to play. The skills learned here are applicable to networking and server administration.
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img class="featurette-image img-circle img-responsive" src="img/mc-redstone.png">
+      <div class="caption text-center"><h4>Redstone Circuits</h4></div>
+      <p style="text-align:justify">
+        Learn how to use Redstone to wire up devices that react to the world. The skills learned here are applicable to digital circuits.
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img class="featurette-image img-circle img-responsive" src="img/mc-world.png">
+      <div class="caption text-center"><h4>World Building</h4></div>
+      <p style="text-align:justify">
+        Learn how to design a world by building a map together with a team. The skills learned here are applicable to project planning and teamworking.
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img class="featurette-image img-circle img-responsive" src="img/mc-command.png">
+         <div class="caption text-center"><h4>Command Programming</h4></div>
+         <p style="text-align:justify">
+           Learn how to use command blocks to create custom mobs and objectives. The skills learned here are applicable to computer science.
+         </p>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="container">
+<div class="row">
+ <div class="col-md-1"></div>
+ <div class="col-md-4">
+
+   <h3><center>Information</center></h3>
+   <ul>
+     <li><strong>Date:</strong> December 20th - December 31st, 2015</li>
+     <li><strong>Time:</strong> 9am - 5pm</li>
+     <li><strong>Location:</strong> 219 NW 20th St #104, Miami, Fl 33127</li>
+     <li><strong>Price:</strong> $360 for the duration of the camp </li>
+     <li><strong>Ages:</strong>7-14</li>
+     <li><strong>Lunch:</strong> Optional | $10 per day</li>
+     <li><strong>Laptop:</strong> Bring a laptop capable of running Minecraft</li>
+   </ul>
+</div>
+
+  <div class="col-md-2"></div>
+  <div class="col-md-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.2376894987906!2d-80.20155258457385!3d25.795731383621344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6b1d28a9de7%3A0x641036f4794d6b4f!2s219+NW+20th+St%2C+Miami%2C+FL+33127!5e0!3m2!1sen!2sus!4v1447278300673" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  <div class="col-md-1"></div>
+
+</div></div>
+  <br>
+
+
+  <h3><center>Team</center></h3><br><br>
+  <center>
+    <div class="container" id="team">
+      <div class="row">
+        <div class="col-md-5">
+                <img class="img-circle" src="img/people/Nelson_face.jpg">
+                <div class="caption text-center">
+                  <h4>Nelson Milian</h4>
+                  <p>I believe learning should be fun and exciting for all ages. When you get to know people, they usually have an interest that lights up their eyes. Finding and nurturing that passion is our misson here.</p> <a style="color:#d855a6;" href="mailto:nelson@mindjoule.com">Email Me</a>
+                </div>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+                <img class="img-circle" src="img/people/Willie_face.jpg">
+                <div class="caption text-center">
+                  <h4>Willie Avendano</h4>
+                  <p>Creative Technologist, Experimenter, Artist, Teacher.</p>
+                  <a style="color:#d855a6;" href="mailto:willie@mindjoule.com">Email Me</a>
+                </div>
+        </div>
+      </div>
+
+    </div>
+  </center>
+
+<br><br><br><br>
+<div class="container">
+  <div class="row"><center><h3>Partners</h3></center></div>
+  <br><br>
+
+  <div class="row" id="partners">
+    <div class="col-md-1"></div>
+    <div class="col-md-2"><a href="http://learn01.io"><img src="img/logos/01.png" width="100px" align="center"></a></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3"><a href="http://mindjoule.com"><img src="img/mindjoule-logo.jpg"/></a></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3"><a href="http://wynwoodmakercamp.com"><img src="img/logos/wmc.png" align="center"></a></div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+
+<br>
+
+
+  <div id="faq" class = "container">
+  <p><h3><strong><center>Minecamp FAQ</center></h3></strong></strong><br />&nbsp;<br />
+    <strong>Do students need Minecraft?</strong><br />
+      The camp does not provide Minecraft accounts for use. Please purchase a Minecraft account for your PC/Mac/Linux laptop.<br />
+      &nbsp;<br />
+      <strong>Do students need a laptop?</strong><br />
+        Please bring a laptop capable of running minecraft. We will not provide devices.<br />
+        &nbsp;<br />
+      <strong>Do students need prior experience?</strong><br />
+        No prior experience is needed for the camp but learning will be tailored to each student&rsquo;s progress level to ensure skills acquisition and increase confidence with STEAM topics.<br />
+        &nbsp;<br />
+      <strong>How are students supervised?</strong><br />
+        The camp will have 2 full-time instructors with a maximum of 25 students. Instructors are trained in safety procedures including CPR, injury or allergic reaction protocols, and always have a copy of the camper&rsquo;s emergency contacts with them. <br />
+        &nbsp;<br />
+      <strong>Do I need to worry about my kid becoming a mad scientist?</strong><br />
+        After this camp&hellip;probably.<br />
+        &nbsp;<br />
+      <strong>How do I pay?</strong><br />
+        A <strong>$25</strong> deposit is required to reserve your spot through our online form. The remainder may be paid via check, cash, or our online payment system.<br />
+        &nbsp;<br />
+      <strong>Where do I sign up?</strong><br />
+        Sign up your child right below for more information. Any questions, you can email us at <a style="color:#d855a6;" href="mailto:info@mindjoule.com">info@mindjoule.com</a> or call us at <strong>786-505-7769</strong></p>
+      </div>
+    </div>
+
+<br>
+
+<div class="container" id="apply">
+  <a id ="apply" href="https://mindjoule.typeform.com/to/KzuFUD"><strong><h1 style="text-align:center;">CLICK HERE TO REGISTER FOR THE CAMP</h1></strong></a>
+</div>
+
+
+<div class="footer" style="color:#FFFFFF;">
+    <center>
+      <center style="color:#ffffff">Brought to you by <a href="https://mindjoule.com"><b>Mindjoule</b></a> and <a href="https://learn01.io"><b>01</b></a>    //     Contact Us at <a href="mailto:info@mindjoule.com?subject=Camp"><b>info@mindjoule.com
+      <ul class="list-inline">
+        <li><a href="http://facebook.com/learn01io"><i class="fa fa-facebook fa-fw fa-1x"></i></a></li>
+        <li><a href="http://twitter.com/learn01io"><i class="fa fa-twitter fa-fw fa-1x"></i></a></li>
+        <li><a href="http://instagram.com/learn01io"><i class="fa fa-instagram fa-fw fa-1x"></i></a></li>
+      </ul>
+      </center>
+    </center>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Facebook Conversion Code for wmc -->
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6015272149932';
+fb_param.value = '0.00';
+fb_param.currency = 'USD';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6015272149932&amp;value=0&amp;currency=USD" /></noscript>
+
+  </body>
+</html>
